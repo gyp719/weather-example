@@ -1,0 +1,30 @@
+{
+    "name": "gyp719/weather",
+    "description": "A weather SDK.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gyp719",
+            "email": "836230540@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gyp719\\Weather\\": "./src"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gyp719\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}
