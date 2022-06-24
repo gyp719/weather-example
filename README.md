@@ -10,5 +10,5 @@
 ## 安装
 
 ```sh
-$ composer require overtrue/weather -vvv
+$ composer require gyp719/weather -vvv
 ```
